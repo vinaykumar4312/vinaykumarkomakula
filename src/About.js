@@ -7,7 +7,7 @@ const About = () => {
           <Col>
             <div className="abt-img">
               <Image
-                src={process.env.PUBLIC_URL + "./images/vinaykumar.jpg"}
+                src={process.env.PUBLIC_URL + "/images/vinaykumar.jpg"}
                 roundedCircle
                 style={{
                   border: "10px solid #444",
