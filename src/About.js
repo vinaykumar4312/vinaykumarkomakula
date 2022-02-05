@@ -1,4 +1,5 @@
 import { Col, Container, Row, Image, Button } from "react-bootstrap";
+import Testimonial from "./components/Testimonial";
 import WhatIDo from "./components/WhatIDo";
 
 const About = () => {
@@ -43,6 +44,7 @@ const About = () => {
         </Container>
       </div>
       <WhatIDo />
+      <Testimonial />
     </div>
   );
 };
