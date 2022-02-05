@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vinaykumarkomakula/static/css/main.8f5b1ae3.css",
-    "main.js": "/vinaykumarkomakula/static/js/main.1e05b79f.js",
+    "main.js": "/vinaykumarkomakula/static/js/main.6630f98a.js",
     "index.html": "/vinaykumarkomakula/index.html",
     "main.8f5b1ae3.css.map": "/vinaykumarkomakula/static/css/main.8f5b1ae3.css.map",
-    "main.1e05b79f.js.map": "/vinaykumarkomakula/static/js/main.1e05b79f.js.map"
+    "main.6630f98a.js.map": "/vinaykumarkomakula/static/js/main.6630f98a.js.map"
   },
   "entrypoints": [
     "static/css/main.8f5b1ae3.css",
-    "static/js/main.1e05b79f.js"
+    "static/js/main.6630f98a.js"
   ]
 }
