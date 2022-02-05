@@ -1,4 +1,5 @@
 import { Col, Container, Row, Image, Button } from "react-bootstrap";
+import WhatIDo from "./components/WhatIDo";
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
             <Col>
               <div className="abt-img">
                 <Image
-                  src={process.env.PUBLIC_URL + "./images/vinaykumar.jpg"}
+                  src={process.env.PUBLIC_URL + "/images/vinaykumar.jpg"}
                   roundedCircle
                   style={{
                     border: "10px solid #444",
@@ -41,6 +42,7 @@ const About = () => {
           </Row>
         </Container>
       </div>
+      <WhatIDo />
     </div>
   );
 };
