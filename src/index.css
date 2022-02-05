@@ -224,3 +224,10 @@ body {
 .slick-dots li button {
   color: #282828;
 }
+
+.footer {
+  border: 1px solid #444;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+}
