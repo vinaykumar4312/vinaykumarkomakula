@@ -2,6 +2,7 @@ import { Col, Container, Row, Image, Button } from "react-bootstrap";
 import Clients from "./components/Clients";
 import Testimonial from "./components/Testimonial";
 import WhatIDo from "./components/WhatIDo";
+import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -47,6 +48,7 @@ const About = () => {
       <WhatIDo />
       <Testimonial />
       <Clients />
+      <Footer />
     </div>
   );
 };
