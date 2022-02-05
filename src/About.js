@@ -1,7 +1,5 @@
 import { Col, Container, Row, Image, Button } from "react-bootstrap";
-import WhatIDo from "./components/WhatIDo";
-import Testimonial from "./components/Testimonial";
-import Clients from "./components/Clients";
+
 const About = () => {
   return (
     <div>
@@ -43,9 +41,6 @@ const About = () => {
           </Row>
         </Container>
       </div>
-      <WhatIDo />
-      <Testimonial />
-      <Clients />
     </div>
   );
 };
