@@ -50,3 +50,177 @@ body {
 .abt-content p {
   color: #fff;
 }
+
+.whatido {
+  padding: 20px 0;
+}
+
+.wid {
+  color: #fff;
+  padding-bottom: 7px;
+  margin-bottom: 20px;
+  position: relative;
+  font-size: 23px;
+}
+
+.wid::before {
+  content: "";
+  background-color: #333;
+  bottom: 0;
+  position: absolute;
+  height: 2px;
+  width: 113px;
+}
+
+.wid::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 2px;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+}
+
+.wid-icon-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.wid-icon {
+  flex-wrap: wrap;
+  color: #fff;
+  margin-right: 15px;
+  font-size: 30px;
+}
+
+.wid-content {
+  flex-wrap: wrap;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.wid-content p {
+  font-size: 13px;
+  text-align: justify;
+}
+
+.testimonials {
+  padding: 20px 0;
+}
+
+.testi {
+  color: #fff;
+  position: relative;
+  font-size: 23px;
+  padding-bottom: 7px;
+  margin-bottom: 20px;
+}
+
+.testi::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  background-color: #333;
+  width: 150px;
+}
+
+.testi::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.clients {
+  padding: 20px 0;
+}
+
+.client {
+  color: #fff;
+  position: relative;
+  font-size: 23px;
+  padding-bottom: 7px;
+  margin-bottom: 20px;
+}
+
+.client::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  background-color: #333;
+  width: 150px;
+}
+
+.client::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 35px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.card-box {
+  padding: 20px 20px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.card-body {
+  padding: 20px 15px 20px 60px !important;
+  border: 2px solid #444;
+  background-color: #282828;
+  border-radius: 8px;
+  position: relative;
+}
+
+.card-body::after {
+  content: "\201E";
+  position: absolute;
+  bottom: -95px;
+  right: -28px;
+  color: #333;
+  font-size: 220px;
+  z-index: -1;
+}
+
+.card-body::before {
+  content: "\201E";
+  position: absolute;
+  top: 63px;
+  left: 21px;
+  color: #333;
+  font-size: 60px;
+}
+
+.card-body p {
+  color: #fff;
+  text-align: justify;
+}
+
+.card-body h5 {
+  color: #fff;
+  font-size: 14px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+.slick-dots li button:focus,
+.slick-dots li button:hover {
+  color: #f1f1f1;
+}
+
+.slick-dots li button {
+  color: #282828;
+}
